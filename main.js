@@ -1,0 +1,45 @@
+$('.brand').owlCarousel({
+    loop:true,
+	autoplay:true,
+	rewind:true,
+    margin:30,
+    smartSpeed:300,
+	stagepadding:50,
+	margin:25,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+
+$('.test').owlCarousel({
+    loop:true,
+	autoplay:true,
+	rewind:true,
+    margin:30,
+	dots:false,
+	pagination:false,
+    smartSpeed:300,
+	stagepadding:50,
+	margin:25,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
