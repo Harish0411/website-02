@@ -57,10 +57,10 @@
 						  <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link text-white" href="#">About</a>
+						  <a class="nav-link text-white" href="#service">service</a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link text-white" href="#">Services</a>
+						  <a class="nav-link text-white" href="#about">about</a>
 						</li>
 						<li class="nav-item dropdown">
 						  <a class=" text-white nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -74,13 +74,16 @@
 						  </ul>
 						</li>
 					   <li class="nav-item">
-						  <a class="nav-link text-white" href="#">Blog</a>
+						  <a class="nav-link text-white" href="#portfolio">portfolio</a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link text-white" href="#">Contact</a>
+						  <a class="nav-link text-white" href="#contact">contact</a>
+						  
 						</li>
+						
+					
 					  </ul>
-					  <div class="form d-flex">
+					  <div class="form d-none d-md-flex">
 						<i class="fa fa-search"></i>
 						<button class="btn" type="submit">FREE ESTIMATE</button>
 					  </div>
@@ -88,7 +91,7 @@
 			  </div>
 			 </nav>
 		 </div>
-		 <div class="hr"></div>
+		 
 	 </header>
 	         
 			 <!---------------HEADER SECTION END---------------------->
@@ -151,10 +154,10 @@
 			 <!---------------WELCOME SECTION END--------------------->
 			 <!---------------SERVICE SECTION START--------------------->
 			 
-	 <section class="service-sec">
+	 <section class="service-sec" id="service">
 	     <div class="container">
 		     <div class="row">
-			     <div class="col-md-6 col-lg-3 mb-sm-20">
+			     <div class="col-md-6 col-lg-3 mb-20">
 				     <div class="service-widget bg-body">
 					     <span class="sw-count">01</span>
 					     <div class="sw-icon">
@@ -167,7 +170,7 @@
 						 <a href="#" class="btn-grey">more</a>
 				    </div>
 			     </div>
-				 <div class="col-md-6 col-lg-3 mt-sm-30">
+				 <div class="col-md-6 col-lg-3 mb-20">
 				     <div class="service-widget bg-body">
 					     <span class="sw-count">02</span>
 					     <div class="sw-icon">
@@ -180,7 +183,7 @@
 						 <a href="#" class="btn-grey">more</a>
 				    </div>
 			     </div>
-				 <div class="col-md-6 col-lg-3 mt-md-30">
+				 <div class="col-md-6 col-lg-3 mb-20">
 				     <div class="service-widget bg-body">
 					     <span class="sw-count">03</span>
 					     <div class="sw-icon">
@@ -193,7 +196,7 @@
 						 <a href="#" class="btn-grey">more</a>
 				    </div>
 			     </div>
-				 <div class="col-md-6 col-lg-3">
+				 <div class="col-md-6 col-lg-3 mb-20">
 				     <div class="service-widget bg-body">
 					     <span class="sw-count">04</span>
 					     <div class="sw-icon">
@@ -213,7 +216,7 @@
 	         <!---------------SERVICE SECTION END--------------------->
 			 <!---------------ABOUT SECTION START--------------------->
 			 
-	 <section class="about-sec position-relative">
+	 <section class="about-sec position-relative" id="about">
 	     <div class="about-shape-1 position-absolute start-0 top-0">
 		     <img src="image/lines.png" alt="" class="img-fluid">
 		 </div>
@@ -295,7 +298,7 @@
 	         <!---------------ABOUT SECTION END--------------------->
 			 <!---------------PORTFOLIO SECTION START--------------------->
 			 
-	 <section class="portfolio-sec">
+	 <section class="portfolio-sec" id="portfolio">
 	     <div class="container">
 		     <div class="row">
 			     <div class="col-12 col-lg-6">
@@ -390,7 +393,7 @@
 	 <section class="why-choose-sec">
 	    <div class="container">
 		     <div class="row">
-				 <div class="col col-md-12 col-lg-5">
+				 <div class="col-12 col-md-12 col-lg-5">
 					 <h4 class="wc-intro">why choose</h4>
 					 <h3 class="wc-heading">we're here to help your business</h3>
 					 <div class="wc-content">
@@ -402,7 +405,7 @@
 						 <h3 class="wcc-info">Lorem Ipsum is simply free text available in your not dummy text of the printing and typesetting industry.</h3>
 					 </div>
 				 </div>
-				 <div class="col col-md-12 col-lg-6 offset-lg-1">
+				 <div class="col-12 col-md-12 col-lg-6 offset-lg-1">
 					 <div class="why-choose-image">
 						 <img src="image/why-choose.jpg" class="img-fluid" alt="">
 					 </div>
@@ -414,7 +417,7 @@
 	         <!---------------WHY CHOOSE SECTION START--------------------->
 			 <!---------------FUN FACT SECTION START--------------------->
 			 
-	 <section class="fun-fact-sec">
+	 <section class="fun-fact-sec" id="fun-fact">
 	     <div class="container">
 		     <div class="row">
 			     <div class="col-12">
@@ -527,10 +530,54 @@
 							 <li><i class="fa-regular fa-square-check"></i>Velit esse cillum dolore eu fugiat nulla pariatur.</li>
 						 </ul>
 					 </div>
+					 <!--<div class="row">
+					 <div class="col-6">
+					 <div class="d-flex">
+					 <div class="col">
+			             <div class="circle">
+						 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+								 <defs>
+									<linearGradient id="GradientColor">
+									   <stop offset="0%" stop-color="#e91e63" />
+									   <stop offset="100%" stop-color="#673ab7" />
+									</linearGradient>
+								 </defs>
+								 <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+						 </svg>
+				             <div class="outer">
+					            <div class="inner">
+						          <div id="number">%</div>
+					            </div>
+					        </div>
+				         </div>
+		             </div>
+					 <div class="col">
+					 </div>
+					 </div>
+					 </div>
+					 <div class="col-6">
+					 <div class="d-flex">
+					 <div class="col">
+			             <div class="circle">
+				             <div class="outer">
+					            <div class="inner">
+						          <div id="number">65%</div>
+					            </div>
+					        </div>
+				         </div>
+		             </div>
+					 <div class="col">
+					 </div>
+					 </div>
+					 </div>
+				 </div>-->
+					 
 				 </div>
 			 </div>
 		 </div>
 	 </section>
+	 
+	 
 	         
 			 <!---------------WHY CHOOSE SECTION-2 END--------------------->
 			 <!---------------TESTIMONIAL SECTION START--------------------->
@@ -629,14 +676,14 @@
 			 <!---------------DIGITAL SECTION END--------------------->
 			 <!---------------BLOG SECTION START--------------------->
 			 
-	 <section class="blog-sec">
+	 <section class="blog-sec id="blog">
 	      <div class="title">
 		     <span class="section-intro">direct from the blog</span>
 			 <h3 class="sec-head">latest news & articles</h3>
 		 </div>
 	    <div class="container">
 		     <div class="row">
-			     <div class="col-md-6 col-lg-4">
+			     <div class="col-md-6 col-lg-4 mb-20">
 				     <div class="section-block">
 					     <div class="blog-img">
 						     <img src="image/blog-1.jpg" alt="" class="img-fluid">
@@ -655,7 +702,7 @@
 						 </div>
 				     </div>
 				 </div>
-				 <div class="col-md-6 col-lg-4">
+				 <div class="col-md-6 col-lg-4 mb-20">
 				     <div class="section-block">
 					     <div class="blog-img">
 						     <img src="image/blog-1.jpg" alt="" class="img-fluid">
@@ -674,7 +721,7 @@
 						 </div>
 				     </div>
 				 </div>
-				 <div class="col-md-6 col-lg-4">
+				 <div class="col-md-6 col-lg-4 mb-20">
 				     <div class="section-block">
 					     <div class="blog-img">
 						     <img src="image/blog-1.jpg" alt="" class="img-fluid">
@@ -744,7 +791,7 @@
 	         <!---------------MAIN SECTION END--------------------->
 			 <!---------------FOOTER SECTION START--------------------->
 			 
-	 <footer class="footer-sec">
+	 <footer class="footer-sec" id="contact">
 	     <div class="container">
 		     <div class="row">
 			     <div class="col-lg-3">
@@ -838,29 +885,53 @@
 		 <div class="footer-bottom">
 		     <div class="container">
 			     <div class="row justify-content-between">
-				     <div class="col-md-6">
+				     <div class="col-lg-6 col-md-12">
 					     <div class="copy">
 						     &copy copywrite 2020 by microtheme.com
 						 </div>
 					 </div>
-				     <div class="col-md-6">
-						 <div class="social-icon text-right">
+				     <div class="col-md-12 col-lg-6 ">
+						 <div class="social-icon text-md-center text-lg-end">
 							 <a href="#"><i  class="fa fa-facebook"></i></a>
 							 <a href="#"><i class="fa fa-twitter"></i></a>
 							 <a href="#"><i class="fa fa-instagram"></i></a>
 							 <a href="#"><i class="fa fa-pinterest"></i></a>
 						 </div>
-					 </div>
+					 </div> 
 				 </div>
 			 </div>
+			
+             <div class="top-btn d-none d-md-inline-flex"><a href="#"><i class="fa fa-arrow-up"></i></a></div>
+			 
+			
 		 </div>
+		 
      </footer>
+	 
 	         
 			 <!---------------FOOTER SECTION END--------------------->
+			 
+			 
+	 	     <script>
+	     let number = document.getElementById("number");
+		 let counter = 0;
+		 setInterval(() => {
+		     if(counter == 90){
+			     clearInterval();
+			}else{
+		     counter += 1;
+			 number.innerHTML = counter + "%";
+			 }
+		}, 20);
+		
+	</script>
 	 
 	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-     <!--<script>
+    
+
+	
+	<!--<script>
 					 $('.counter').counterUp({
 				delay: 10,
 				time: 1000
